@@ -1,6 +1,6 @@
 {
   "name": "lodash",
-  "version": "4.17.4",
+  "version": "4.17.5",
   "license": "MIT",
   "private": true,
   "main": "lodash.js",
@@ -13,7 +13,7 @@
     "build:fp-modules": "node lib/fp/build-modules.js",
     "build:main": "node lib/main/build-dist.js",
     "build:main-modules": "node lib/main/build-modules.js",
-    "doc": "node lib/main/build-doc github && npm run test:doc",
+    "doc": "node lib/main/build-doc github",
     "doc:fp": "node lib/fp/build-doc",
     "doc:site": "node lib/main/build-doc site",
     "doc:sitehtml": "optional-dev-dependency marky-markdown@^9.0.1 && npm run doc:site && node lib/main/build-site",
